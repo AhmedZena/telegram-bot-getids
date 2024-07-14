@@ -53,7 +53,7 @@ bot.use(rateLimit(limitConfig));
 
 const getAge = require("./idage.js");
 
-let botName = "";
+let botName = "azenagetIds";
 
 const getAgeString = (ctx, key) => {
   const idAgeHelpLink = `<a href="https://t.me/${botName}?start=idhelp">(?)</a>`;
